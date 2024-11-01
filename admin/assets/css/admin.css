@@ -1,0 +1,55 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+.wpbi-right-sidebar-admin .inside .cw-admin-footer{font-size:0.9em;overflow:hidden;border-top:1px solid #ccc;padding-top:5px;}
+.wpbi-right-sidebar-admin .inside .cw-admin-footer .left-col{float:left;margin-right:20px;}
+.wpbi-right-sidebar-admin .inside .cw-admin-footer .right-col{float:left;text-align:center;}
+
+.wpbi-hidden{display:none;}
+.wpbi-visible{display:block;}
+
+.wpbi-settings-page{}
+
+.wpbi-settings-page textarea.custom-css{height:400px;}
+
+.wpbi-settings-page .field-subtitle{width:200px;display:inline-block;}
+.wpbi-settings-page .radio-image-wrapper{overflow:hidden;}
+.wpbi-settings-page .radio-image-wrapper .radio-image-item{float:left;margin-right:2em;margin-bottom:1em;}
+.wpbi-settings-page .radio-image-wrapper .radio-image-item img{border:1px solid #c3c3c3;}
+.wpbi-settings-page .radio-image-wrapper .radio-image-item:last-child{margin-right:0}
+
+.wpbi-settings-page .field-multifield-wrapper{}
+.wpbi-settings-page .field-multifield-wrapper .field-multifield-controls-main{margin-bottom:1em;}
+.wpbi-settings-page .field-multifield-wrapper .multifield-controls-btn{font-size:2em;cursor:pointer;display:inline;}
+.wpbi-settings-page .field-multifield-wrapper .multifield-controls-btn:before{
+display: inline-block;
+text-decoration: none;
+cursor: pointer;
+border-width: 1px;
+border-style: solid;
+-webkit-appearance: none;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+border-color: #ccc;
+background: #f7f7f7;
+-webkit-box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+padding:2px 5px 0px 5px;
+}
+.wpbi-settings-page .field-multifield-wrapper .multifield-controls-btn:hover:before{
+background: #fafafa;
+border-color: #999;
+}
+
+.wpbi-settings-page .field-multifield-wrapper  .multifield-controls-btn.btn-add{color:#7ad03a;}
+.wpbi-settings-page .field-multifield-wrapper .multifield-controls-btn.btn-add:hover:before{color:#5db717;}
+
+.wpbi-settings-page .field-multifield-wrapper  .multifield-controls-btn.btn-delete{color:#dd3d36;}
+.wpbi-settings-page .field-multifield-wrapper .multifield-controls-btn.btn-delete:hover:before{color:#b21f1a;}
+
+.wpbi-settings-page .field-multifield-wrapper .field-multifield-set-wrapper{border:1px dashed #ccc;padding:5px;margin-bottom:1em;}
+.wpbi-settings-page .field-multifield-wrapper .field-multifield-set-wrapper .field-multifield-controls-child{text-align:right}
+
+
+
+.wpbi-settings-page .wp-picker-container{float:left;}
+
+.wpbi-page-metabox-inner{max-height:250px;overflow-y:scroll}

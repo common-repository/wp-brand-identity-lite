@@ -1,0 +1,39 @@
+/* 
+* WP Brand Identity Lite
+* Created by Max Kostinevich / Circlewaves Team  
+* http://circlewaves.com / support@circlewaves.com
+*/
+
+
+/* Main Login Screen */
+body.login{}
+body.login #login{padding:6% 0 0 0;}
+
+/* Form Styles */
+
+/* Default Form */
+body.wp-brand-identity.wpbi-form-style-1 #login form{}
+
+/* Circle Form */
+body.wp-brand-identity.wpbi-form-style-2 #login form{
+height:210px;
+padding:50px;
+padding-top:60px;
+-webkit-border-radius: 999px;
+-moz-border-radius: 999px;
+border-radius: 999px;
+}
+body.wp-brand-identity.wpbi-form-style-2 #login p#nav,
+body.wp-brand-identity.wpbi-form-style-2 #login p#backtoblog{text-align:center;}
+
+
+/* End Form Styles */
+
+
+
+/* Form Position */
+body.wp-brand-identity.wpbi-form-left #login{margin-left:2%;}
+body.wp-brand-identity.wpbi-form-center #login{}
+body.wp-brand-identity.wpbi-form-right #login{margin-right:2%}
+/* End Form Position */
+
